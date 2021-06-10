@@ -1,9 +1,11 @@
+@import '../../assets/variables';
+
 .container {
     h1{
         text-align: center;
-        background-color: black;
+        background-color: $color-black;
         padding: 20px;
-        color: white;
+        color: $color-white;
     }
 
     .friend-desc {

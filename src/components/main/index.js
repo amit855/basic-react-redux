@@ -4,6 +4,7 @@ import DisplayNames from '../displayNames';
 import { addFriend } from '../../module/addFriend/actions';
 import { connect } from "react-redux";
 import { AddFriendSelector } from "../../module/addFriend/selector";
+import { Common } from '../../constants/common';
 import './styles.scss';
 
 const Main = (props) => {
@@ -16,7 +17,7 @@ const Main = (props) => {
 
 	return (
 		<div className="container">
-			<h1>FRIEND LIST</h1>
+			<h1>{Common.appHeading}</h1>
 			<div className='friend-desc'>
 				<DisplayNames displayFriends={displayFriends} recentFriend={recentFriend} />
 				<AddFriend add={add} />

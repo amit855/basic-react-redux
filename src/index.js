@@ -6,6 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import store from './module/store';
 
+// The <Provider> component makes the Redux store available to any nested components that need to access the Redux store.
+// A store holds the whole state tree of your application
+
 ReactDOM.render(
   <Provider store={store}>
     <App />
