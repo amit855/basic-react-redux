@@ -1,13 +1,13 @@
 @import '../../assets/variables';
 
-.display-name-container{
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-    height: 50vh;
-    margin: 50px;
-    border: $color-black 2px solid;
-    border-radius: 2%;
-    padding: 20px;
-    overflow: hidden;
+.display-name-container {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  height: 50vh;
+  margin: 50px;
+  border: $color-black 2px solid;
+  border-radius: 2%;
+  padding: 20px;
+  overflow: hidden;
 }

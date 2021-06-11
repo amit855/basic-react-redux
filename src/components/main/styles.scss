@@ -1,16 +1,16 @@
 @import '../../assets/variables';
 
 .container {
-    h1{
-        text-align: center;
-        background-color: $color-black;
-        padding: 20px;
-        color: $color-white;
-    }
+  h1 {
+    text-align: center;
+    background-color: $color-black;
+    padding: 20px;
+    color: $color-white;
+  }
 
-    .friend-desc {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
+  .friend-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }

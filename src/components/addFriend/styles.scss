@@ -1,12 +1,12 @@
 @import '../../assets/variables';
 
-.add-friend-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30vw;
-    button {
-        margin: 40px;
-        background-color: $color-black;
-    }
+.add-friend-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  button {
+    margin: 40px;
+    background-color: $color-black;
+  }
 }
